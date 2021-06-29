@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 
@@ -7,45 +7,45 @@ void main()
 {
 	setlocale(LC_ALL, "Russian");
 	int temperature;
-	cout << "Ââåäèòå òåìïåðàòóðó âîçäóõà: "; cin >> temperature;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐ¼Ð¿ÐµÑ€Ð°Ñ‚ÑƒÑ€Ñƒ Ð²Ð¾Ð·Ð´ÑƒÑ…Ð°: "; cin >> temperature;
 	if (temperature >= 70)
 	{
-		cout << "Âû íà äðóãîé ïëàíàòå!" << endl;
+		cout << "Ð’Ñ‹ Ð½Ð° Ð´Ñ€ÑƒÐ³Ð¾Ð¹ Ð¿Ð»Ð°Ð½Ð°Ñ‚Ðµ!" << endl;
 	}
 	else if (temperature >= 50)
 	{
-		cout << "Âû íà ýêâàòîðå" << endl;
+		cout << "Ð’Ñ‹ Ð½Ð° ÑÐºÐ²Ð°Ñ‚Ð¾Ñ€Ðµ" << endl;
 	}
 	else if (temperature >= 40)
 	{
-		cout << "Î÷åíü æàðêî" << endl;
+		cout << "ÐžÑ‡ÐµÐ½ÑŒ Ð¶Ð°Ñ€ÐºÐ¾" << endl;
 	}
 	else if (temperature >= 25)
 	{
-		cout << "Æàðêî" << endl;
+		cout << "Ð–Ð°Ñ€ÐºÐ¾" << endl;
 	}
 	else if (temperature >= 15)
 	{
-		cout << "Òåïëî" << endl;
+		cout << "Ð¢ÐµÐ¿Ð»Ð¾" << endl;
 	}
 	else if (temperature >= 0)
 	{
-		cout << "Ïðîõëàäíî" << endl;
+		cout << "ÐŸÑ€Ð¾Ñ…Ð»Ð°Ð´Ð½Ð¾" << endl;
 	}
 	else if (temperature >= -9)
 	{
-		cout << "Ïðîõëàäíî" << endl;
+		cout << "ÐŸÑ€Ð¾Ñ…Ð»Ð°Ð´Ð½Ð¾" << endl;
 	}
 	else if (temperature >= -10)
 	{
-		cout << "Ìîðîç" << endl;
+		cout << "ÐœÐ¾Ñ€Ð¾Ð·" << endl;
 	}
 	else if (temperature >= -19)
 	{
-		cout << "Ìîðîç" << endl;
+		cout << "ÐœÐ¾Ñ€Ð¾Ð·" << endl;
 	}
 	else if (temperature <= -20)
 	{
-		cout << "Ñèëüíûé ìîðîç" << endl;
+		cout << "Ð¡Ð¸Ð»ÑŒÐ½Ñ‹Ð¹ Ð¼Ð¾Ñ€Ð¾Ð·" << endl;
 	}
 }
